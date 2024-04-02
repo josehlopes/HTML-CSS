@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Header */
+
+header {
+    padding: 0px 20px;
+    background-color: #F5F7FA;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header ul li {
+    font-weight: lighter;
+}
+
+header .custom-background {
+    background-color: #F5F7FA;
+}
+
+header .custom-button {
+    width: 91px;
+    height: 40px;
+    padding: 10px, 20px, 10px, 20px;
+    font-weight: lighter;
+    background-color: #4CAF4F;
+    font-size: 15px;
+}
+
+#navBtn1{
+    background-color: #F5F7FA;
+    color: #4CAF4F;
+}
+#navBtn2{
+    background-color: #4CAF4F;
+    color: #fff;
+}
+/* End Header */
+
+/* Setup */
+body {
+    margin: 0px auto;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F5F7FA;
+    font-family: 'Inter', 'Helvetica Neue',;
+}
+
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Main */
+
+#heroSection {
+    height: 599px;
+    gap: 104px;
+    padding: 96px 144px 96px 144px;
+    opacity: 0px;
+    background-color: #F5F7FA;
+}
+
+main section .custom-div {
+    max-height: 276px;
+    max-width: 657px;
+}
+
+#_8yDiv {
+    white-space: nowrap;
+}
+
+#_8yDiv .custom-button {
+    background-color: #4CAF4F;
+    font-size: 16px;
+    color: #fff;
+    width: 128px;
+    height: 52px;
+    padding: 14px 32px 14px 32px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+
+}
+
+/* Text format Hero */
+#_8ySpan {
+    color: #4CAF4F    ;
+}
+
+#_8yDiv h1 {
+    font-size: 64px;
+    
+}
+
+#_8yDiv p {
+    font-size: 16px ;
+}
+
+/* Img */
+
+#illustration {
+    width: 391px;
+    height: 407px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#dot {
+    width: 46px;
+    height: 10px;
+}
+
+/* Clients Section */
+#clientsSection {
+    opacity: 0px;
+    background-color: #fff;
+}
+
+.custom-info {
+    width: 299px;
+}
+
+#clientTextDiv {
+    width: 100%;
+}
+
+.custom-img {
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+
+#imgDiv {
+    width: 1152px;
+    height: 96px; 
+}
+
+#organisations {
+    width: 65px;
+    height: 56px;
+} 
+
+#clientsSection .custom-button{
+    width: 151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color: #fff;
+}
+
+
+/* Text format client */
+
+#clientsSection h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+#organisations {
+    max-width: 251px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#_601w {
+    width: 601px;
+    font-size: 14px;
+}
+
+#_14p {
+    font-size: 14px;
+}
+
+._14p {
+    font-size: 14px;
+}
+
+._36p {
+    font-size: 36px;
+    width: 600px;
+}
+
+/* Ach */
+
+.custom-height {
+    height: 288px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#businessSpan {
+    color: #4CAF4F    ;
+}
+
+.modelImg {
+    width: 48px;
+    height: 48px;
+}
+
+#calenderSection {
+    background-color: #fff;
+}
+
+#calenderSection .custom-button{
+    align-items: end;
+    width: 151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color: #fff;
+}
+
+#customerSection {
+    padding: 30px;
+}
+
+#costumerSection h5{
+    color: #4CAF4F;
+}
+#arrow {
+    width: 14.59px;
+    height: 8px;
+}
+
+#img9 {
+    width: 326px;
+    height: 326px;
+    border-radius: 8px;
+}
+
+
+.textimageDiv {
+    margin-top: 150px;
+    width: 317px;
+    height: 176px;
+    background-color: #F5F7FA;
+    border-radius: 8px;
+    padding: 16px;
+    position: absolute;
+    z-index: 3;
+    box-shadow: -4px 16px 30px 8px rgba(171,190,209,0.39);
+    -webkit-box-shadow: -4px 16px 30px 8px rgba(171,190,209,0.39);
+    -moz-box-shadow: -4px 16px 30px 8px rgba(171,190,209,0.39);
+}
+
+.imgforText {
+    width: 368px;
+    height: 286px;
+    border: 8px;
+}
+
+#divFooter {
+    height: 300px;
+    padding: 32px, 0px, 32px, 0px;
+    gap: 32px;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #fff;
+}
+
+footer .custom-button{
+    align-items: end;
+    width: 151px;
+    height: 52px;
+    background-color: #4CAF4F;
+    color: #fff;
+}
+
+footer h2 {
+    font-size: 64px;
+}
+
+footer #arrow {
+    color: #fff;
+}
+
+#footer{
+    width: 100%;
+    padding-bottom: 5%;
+    background-color: #263238;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-size: 10   px;
+    font-weight: semi-bold;
+}
+.footer_icons{
+    margin-left:30%;
+    padding:0;
+    list-style-type:none;
+}
+.footer_icons li{
+    float: left;
+    padding-right: 2%;
+    text-align:center;
+}
+
+#aboveFooter {
+    background-color: #fff;
+}
+/* End Main */
+
+

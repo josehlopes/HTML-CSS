@@ -1,0 +1,270 @@
+/* Setup */
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+
+/*Header*/
+
+header {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 10px 0px;
+    background-color: #FFDE6A;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+header ul li {
+    padding: 0px 20px 0px 20px;
+}
+
+.custom-button {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #6A8BFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    white-space: nowrap;
+    border: none;
+    outline: none;
+}
+
+.custom-button:hover {
+    color: #392A08;
+    background-color: #F266CD;
+
+}
+
+.custom-button svg {
+    margin-right: 7px;
+}
+
+.nav-link {
+    color: #000;
+    white-space: nowrap;
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#logoA {
+    margin-left: 1%;
+}
+
+
+
+/* Main */
+
+main {
+    margin-top: 50px;
+}
+
+#homeSection,
+#homeSection h1,
+#homeSection h2,
+#homeSection h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+#homeSection h1 {
+    font-size: 30px;
+    line-height: 1.5em;
+}
+#homeSection h2 {
+    font-size: 20px;
+    line-height: 1.5em;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background: rgb(53,100,242);
+    background: linear-gradient(90deg, rgba(53,100,242,1) 0%, rgba(102,137,242,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#homeSection h3 {
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-weight: lighter;
+}
+
+#homeSection .custom-button {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(53,100,242);
+    background: linear-gradient(90deg, rgba(53,100,242,1) 0%, rgba(100,53,242,1) 50%, rgba(102,137,242,1) 100%);
+    transition: filter 0.3s;
+
+}
+
+#homeSection .custom-button:hover {
+    color: #fff;
+    filter: brightness(1.15); /* Ajusta o brilho quando o botão está em estado de hover */
+}
+
+#homeSection ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+
+}
+
+#homeSection ul li {
+    color: grey;
+    opacity: 0.70;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: start;
+}
+#homeSection ul li p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#homeSection ul li svg {
+    box-sizing: border-box;
+    color: #66F289;
+    margin-right: 10px;
+}
+#h1TextDestControle {
+    color: #F2C335;
+}
+
+  #h1TextDestParkpass {
+    color: #F2C335;
+
+}
+
+#demoContent {
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 60px;
+    border: solid 2px #000;
+    box-shadow: 0 3px 8px #0000003d;
+    
+
+}
+
+#demoContent img {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 90%;
+
+}
+
+/* How Works */
+
+.howWorksContent {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.howWorksContent h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 30px;
+    line-height: 1em;
+    color: #000;
+
+}
+.howWorksContent h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 26px;
+    line-height: 1em;
+    color: #6A8BFF;
+}
+
+
+.howWorksContent p {
+    font-weight: lighter;
+    font-size: 22px;
+    line-height: 1em;
+}
+
+
+.worksBox {
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-radius: 60px;
+    border: solid 2px #000;
+    box-shadow: 0 3px 8px #0000003d;
+}
+
+.worksBox img {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+#howWorksSection .custom-button {
+    position: relative;
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(53,100,242);
+    background: linear-gradient(90deg, rgba(53,100,242,1) 0%, rgba(100,53,242,1) 50%, rgba(102,137,242,1) 100%);
+    transition: filter 0.3s;
+
+}
+
+#howWorksSection .custom-button:hover {
+    color: #fff;
+    filter: brightness(1.15);
+}
