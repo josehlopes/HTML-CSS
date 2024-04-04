@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
 * {
-    font-family: 'Oxanium' sans-serif;
+    font-family: 'Oxanium', sans-serif;
 }
 
 html {
@@ -10,3 +11,162 @@ html {
     margin: 0px;
 }
 
+/* Navbar */
+
+.custom-nav {
+    background-color: #FFF7E7;
+    font-weight: 800;
+}
+
+.nav-link {
+    color: #817382;
+}
+
+.nav-link:hover {
+    color: #F95C19;
+}
+
+.custom-nav-icons button {
+    height: 100%;
+}
+
+header .custom-btn {
+    font-weight: 700;
+    color: #F95C19;
+    background-color: #FFE4D9;
+}
+
+.custom-btn:hover {
+    color: white;
+}
+
+#imgButton {
+    width: 75.81%;
+    height:78%;
+}
+
+/* Main content */
+
+main {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1%;
+}
+
+#getStarted h1 {
+    margin-top: 25%;
+    font-size: 3.06em;
+    width: 100%;
+    font-weight: 300;
+}
+
+#getStarted .custom-text {
+    font-weight: 700;
+}
+#getStarted h3 {
+    margin-top: 2%;
+    font-size: 1.25em;
+    width: 80%;
+}
+
+#getStarted .custom-btn {
+    font-family: 'Oxanium', sans-serif;
+    font-weight: 700;
+    margin-top: 10%;
+    width: 30%;
+    background-color: #F95C19;
+    color: white;
+}
+
+#getStarted img {
+    margin-top: 13%;
+    width: 90%;
+    height: auto;
+}
+
+/* Services */
+
+#services {
+    font-family: 'Raleway', sans-serif;
+}
+
+#services .custom-div {
+    margin: 10% 0;
+}
+
+#services .business-div > div,
+#services .business-div > ul {
+    margin-bottom: 13%; 
+}
+#services .business-divInt > img {
+    margin-bottom: 5%;
+}
+
+#services h2 {
+    font-family: 'Oxanium', sans-serif;
+    color: #000;
+    font-size: 1.95em;
+    font-weight: 700;
+}
+#services h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.45em;
+    font-weight: 800;
+}
+
+#services p {
+    color: #7B7A8B;
+    font-weight: 400;
+    margin: 0px 8%;
+    font-size: 1em;
+}
+
+#services ul {
+    margin: 0px 4%;
+}
+
+#services ul li a {
+    color: #7B7A8B;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#services ul li::marker {
+    color: #F95C19;
+}
+
+#services .business-div {
+    height: 90%;
+    border: solid 1px;
+    border-radius: 1em;
+    padding: 1%;
+    box-shadow: 11px 15px 46px -21px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 11px 15px 46px -21px rgba(0,0,0,0.19);
+    -moz-box-shadow: 11px 15px 46px -21px rgba(0,0,0,0.19);
+    
+}
+
+#services button {
+    font-family: 'Oxanium', sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+    width: 80%;
+    background-color: white;
+    color: #F95C19;
+    border: solid 1px #F95C19;
+
+}
+
+#services button:hover {
+    color: white;
+    background-color: #F95C19;
+}
+
+#services .business-divInt {
+    margin-top: 20%;
+}
+
+/* Facts counter */
+
+#factCounter {
+    margin-top: 15%;
+}
